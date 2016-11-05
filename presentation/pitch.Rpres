@@ -1,0 +1,48 @@
+1. Project Pitch / Data Products
+========================================================
+author: Herminio Vazquez
+date: November 5, 2016
+autosize: true
+
+2. App Introduction
+========================================================
+
+If you are about to get married, you need to know the features
+influencing the prices on diamond. The application shown in this project
+assist you undertanding the following:
+
+- Price ranges
+- Diamond features
+- Diamond lingo
+
+3. Data origins
+========================================================
+
+The features described in the dataset are:
+```{r}
+library(ggplot2)
+names(diamonds)
+```
+
+Your investment will be around:
+```{r}
+summary(diamonds$price)
+```
+
+4. Our app will show you something like:
+========================================================
+
+```{r, echo=FALSE, fig.width=12}
+p <- ggplot(data=diamonds, aes(x = carat, y = price, color=clarity))
+p + geom_point() 
+```
+
+5. Please visit at
+========================================================
+
+Thanks for supporting us. (me)
+Our app is located in:
+
+[Data Products - Final Submission App](https://herminio.shinyapps.io/Coursera-DataProduct-Week4/)
+
+

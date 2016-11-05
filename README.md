@@ -14,3 +14,9 @@ The diamonds dataset is available in R.
 November 2016
 Herminio Vazquez
 ```
+
+__Application:__
+[Shiny App - Application](http://herminio.shinyapps.io/Coursera-DataProduct-Week4/)
+
+__Presentation:__
+[RStudio Presenter - Presentation](http://rpubs.com/canimus/dataproductsweek4)

@@ -2,6 +2,8 @@ library(shiny)
 library(datasets)
 library(ggplot2)
 
+# Location:
+# https://herminio.shinyapps.io/Coursera-DataProduct-Week4/
 shinyServer(function(input, output) {
   
   output$plot <- renderPlot({

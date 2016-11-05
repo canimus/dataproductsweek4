@@ -3,6 +3,8 @@ library(ggplot2)
 
 dataset <- diamonds
 
+# Location:
+# https://herminio.shinyapps.io/Coursera-DataProduct-Week4/
 shinyUI(fluidPage(
   
   title = "Diamonds Explorer",
