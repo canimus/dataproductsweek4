@@ -1,5 +1,4 @@
 # Coursera: Data Products / Final Assessment
-----
 
 This projects contains the code components of the final grading assessment for the Building Data Products course.
 It consists in 2 files:
